@@ -92,7 +92,7 @@ namespace Leo.TencentCloud.Cos
             }
 
             //执行请求
-            return status;
+            return _bucketStatus = status;
         }
 
         /// <summary>
