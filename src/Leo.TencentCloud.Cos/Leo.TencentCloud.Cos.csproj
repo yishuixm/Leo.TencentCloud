@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Tencent.QCloud.Cos.Sdk" Version="5.4.25" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Leo.TencentCloud\Leo.TencentCloud.csproj" />
+  </ItemGroup>
+
+</Project>
