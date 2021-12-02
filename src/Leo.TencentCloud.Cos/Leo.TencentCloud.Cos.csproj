@@ -1,16 +1,14 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>0.0.1</Version>
+    <Version>0.1.1</Version>
+    <Authors>Leo</Authors>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Leo.TencentCloud" Version="0.0.1" />
     <PackageReference Include="Tencent.QCloud.Cos.Sdk" Version="5.4.25" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Leo.TencentCloud\Leo.TencentCloud.csproj" />
   </ItemGroup>
 
 </Project>
